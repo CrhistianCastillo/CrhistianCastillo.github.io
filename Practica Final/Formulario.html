@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilos/Formulario.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <header class="encabezado">
+        <div class="contenido-encabezado">
+            <h1>Formulario</h1>
+        </div>
+    <nav  class="contenido-navegacion">
+        <div class="navegacion">
+            <a href="/Pagina-Principal.html" target="_blank" >Pagina Principal</a>
+            <a href="/CV.html" target="_blank" >CV</a>
+            <a href="/Formulario.html" target="_blank" >Formulario</a>
+            <a href="/Explicacion-Proyecto.html" target="_blank" >Documentación</a>
+        </div>
+
+       
+
+
+
+    </nav>
+    </header>
+
+    <main class="base-formulario">
+        <div class="contenido-formulario">
+
+        
+        <form action="ejemplo.php" method="get">
+            <fieldset>
+                <legend class="datos-personales">Datos Personales</legend>
+            <p> <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Introduzca Su Nombre." size="30" required >
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido" id="apellido" placeholder="Introduzca Su Apellido." size="30" required >
+            </p>
+            <p>
+                <label for="Nacimiento">Fecha de Nacimiento:</label>
+                <input type="date" id="Nacimiento" name="nacimiento">
+                <label for="Sexom">Genero:</label>
+                <input type="radio" name="m" value="Masculino" id="Sexom" required ><label for="Sexom">Masculino</label> 
+                <input type="radio" name="f" value="Femenino" id="Sexof" required ><label for="Sexof">Femenino</label>
+                <input type="radio" name="o" value="Otro" id="SexoO" required ><label for="SexoO">Otro</label>
+            </p>
+            <p>
+                <label for="Documentacion">Introduzca su Documentacion:</label>
+                <select name="menu" id="Documentacion" required >
+                    <option value="">...</option>
+                    <option value="DNI">DNI</option>
+                    <option value="NIE">NIE</option>
+                    <option value="Pasaporte">Pasaporte</option>
+                </select>
+                <input type="text" name="documentacion" placeholder="Introduzca su documentación." required size="20" >
+            </p>
+            <p>
+                <label for="correo">Ponga su correo electronico:</label>
+                <input type="email" placeholder="ejemplo@gmail.com" id="correo">
+                <label for="telefono">Ponga su numero de telefono:</label>
+                <input type="number" placeholder="654338958" id="telefono">
+
+            </p>
+            <p>
+                <label for="residencia">Residencia:</label>
+                <select name="residencia" id="residencia">
+                    <option selected>...</option>
+                    <optgroup label="España">
+                        <option value="Madrid">Madrid</option>
+                        <option value="Sevilla">Sevilla</option>
+                        <option value="Valencia">Valencia</option>
+                    </optgroup>
+                <optgroup label="Cuba">
+                    <option value="a">Bayamo</option>
+                    <option value="b">La Habana</option>
+                    <option value="c">Santiago de Cuba</option>
+                </optgroup>
+
+                </select>
+
+            </p>
+
+            </fieldset>
+
+            <fieldset>
+                <legend class="datos-academicos">Datos Academicos</legend>
+               <p> <label for="cursos">Ponga sus estudios:</label>
+                <select name="cursos" id="cursos" multiple>
+                    <option value="...">...</option>
+                    <option value="ESO">ESO</option>
+                    <option value="Bachillerato">Bachillerato</option>
+                    <option value="Grado Medio">Grado Medio</option>
+                    <option value="Grado Superior">Grado Superior</option>
+                    <option value="Universidad">Universidad</option>
+                </select>
+           
+
+               <label for="problemas">Problemas a la hora de estudiar:</label>
+               <textarea name="problemas" id="problemas" cols="30" rows="3" placeholder="Escriba algo..."></textarea>
+            </p>
+                <p>
+                <label for="repetir">Ha repetido:</label>
+                <input type="checkbox" name="Si" id="repetir">Si
+                <input type="checkbox" name="No" id="repetir1" >No
+            </p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Datos de interes</legend>
+                <label for="ingles">Nivel de ingles(Malo,Medio,Bueno)</label>
+                <input type="range" id="ingles"
+                  min="1"  max="3" list="lista-rango">
+                <datalist id="lista-rango">
+                    <option value="1" label="malo"></option>
+                    <option value="2" label="medio"></option>
+                    <option value="3" label="bueno"></option>
+                </datalist>
+
+                <label for="color">Color favorito:</label>
+                <input type="color" id="color">
+
+
+
+            </fieldset>
+
+            <input type="submit" value="enviar">
+            <input type="reset" value="Borrar">
+
+
+        </form>
+
+
+
+        </div>
+
+
+    </main>
+
+    <aside>
+        <img src="/estilos/img/yo.jpg" alt="yo">
+        <h2>Crhistian Castillo</h2>
+
+
+
+    </aside>
+
+
+
+
+    <footer>
+
+      <p>Crhistian Castillo</p>  
+      <p>crisroiderman@gmail.es</p>
+
+
+    </footer>
+
+
+</body>
+</html>
