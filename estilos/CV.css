@@ -1,0 +1,138 @@
+body{
+    background-color: #fcecd9;
+}
+
+
+
+header{
+    width: 100%;
+    background-color: white;
+    clear: both;
+}
+
+.cosas{
+    font-size: 20px;
+    position: relative;
+    top: 100px;
+    left: 300px;
+    clear: both;
+}
+
+.cosas2{
+    position: relative;
+    top: 190px;
+    left: 300px;
+    clear: both;
+}
+
+img{
+    width: 150px;
+    border: black solid 2px;
+    position: relative;
+    left: 1000px;
+    bottom: 100px;
+}
+.cv h2{
+    text-align: center;
+}
+.estudios{
+    position: relative;
+    left: 300px;
+    top: 80px;
+    text-align: center;
+    background-color: white;
+    clear: both;
+}
+
+.inicio{
+    font-size: 30px;
+    clear: both;
+    
+}
+
+.Trabajo{
+    position: relative;
+    left: 790px;
+    bottom: 30px;
+    background-color: white;
+    clear: both;
+}
+
+.laboral{
+    font-size: 30px;
+    text-align: center;
+    clear: both;
+}
+.uno{
+    text-align: center;
+    clear: both;
+}
+
+td{
+    padding: 9px;
+    clear: both;
+}
+
+.conocimiento{
+    position: relative;
+    left: 1300px;
+    bottom: 105px;
+    clear: both;
+}
+
+.datos{
+    font-size: 30px;
+    clear: both;
+}
+.tres{
+    text-align: center;
+    background-color: white;
+}
+
+
+.contenido-navegacion{
+    width: 10%;
+    background-color: black;
+    float: right;
+    position: relative;
+    bottom: 700px;
+}
+
+
+.navegacion a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+    padding: 5px 5px 120px 20px;
+}
+
+
+a:hover{
+    color: rgb(242, 182, 110);
+    transition: 2s;
+}
+
+.video1{
+    width: 1000px;
+    position: relative;
+    top: 10px;
+    left: 480px;
+    right: 350px;
+    bottom: 600px;
+    clear: both;
+}
+
+
+footer{
+    background-color: rgb(103, 100, 100);
+    color: white;
+    text-align: center;
+    clear: both;
+}
+
+footer img{
+    width: 50px;
+    position: relative;
+    right: 6000px;
+}

@@ -1,0 +1,55 @@
+.contenedor{
+width: 100%;
+background-color: black;
+color: white;
+}
+
+
+
+.contenido-encabezado{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+nav{
+    text-align: right;
+}
+
+.navegacion a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 50px 50px 5px;
+    font-size: 20px;
+}
+
+.lala{
+    text-align: center;
+}
+.lala a{
+    text-decoration: none;
+    color: black;
+    padding: 30px;
+}
+
+
+iframe{
+    width: 1000px;
+}
+
+.vieo{
+    text-align: center;
+    position: relative;
+}
+
+
+footer{
+    background-color: rgb(103, 100, 100);
+    color: white;
+    text-align: center;
+    clear: both;
+}
+
+footer img{
+    width: 50px;
+}
